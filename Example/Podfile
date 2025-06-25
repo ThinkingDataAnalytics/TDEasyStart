@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+install! 'cocoapods', :warn_for_unused_master_specs_repo => false
+
+#source "http://10.27.249.150:8888/thinking-analytics/data-collector/client-sdk/testpodspec.git"
+source "https://cdn.cocoapods.org/"
+
+target 'PresetTemplateDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PresetTemplateDemo
+  pod 'TDEasyStart', :path => '../'
+#  pod 'TDPresetTemplate', '0.0.1-test.3'
+
+  pod 'ThinkingSDK', '3.1.0'
+
+end
