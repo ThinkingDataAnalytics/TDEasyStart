@@ -1,5 +1,5 @@
 PODS:
-  - TDEasyStart (1.0.0-test.3):
+  - TDEasyStart (1.0.0):
     - ThinkingSDK (>= 3.1.0)
   - ThinkingDataCore (1.2.1):
     - ThinkingDataCore/Main (= 1.2.1)
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TDEasyStart: 963c785da9e26a3e1e3f8a244985fc7d193fc3d7
+  TDEasyStart: 334483f2832ac6aaae44cb133431172fd18622ce
   ThinkingDataCore: a9af2a3c645c928f6555dbfb447f9c89381976d9
   ThinkingSDK: 55612adb5d90fac6c1ea0a9c8651b619cb86f5fe
 
